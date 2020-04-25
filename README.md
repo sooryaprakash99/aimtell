@@ -6,7 +6,10 @@ Project Setup:
     1. Node JS
     2. NPM
     
-  run 'npm install'
+Project Build:    run 'npm install'
   
 Project Execute:
-  run 'npm run start'
+ 1. run 'npm run start'
+ 2. From browser -> http://localhost:8080/
+  
+
