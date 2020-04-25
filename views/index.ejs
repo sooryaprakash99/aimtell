@@ -24,11 +24,11 @@
                 xmlhttp.onreadystatechange = function () {
                     if (this.readyState == 4 && this.status == 200) {
                         var data = JSON.parse(this.responseText);
-                        var html = ejs.render(template.siteListTemplate, { sites: data.sites }); // Render ejs client side with EJS script (template1 corresponds to the artists template)
+                        var html = ejs.render(template.siteListTemplate, { sites: data.sites }); 
                         $('#ren').html(html);
                     } else if(this.readyState == 4 && this.status !== 400) {
                         var errorString = `<p class="text-danger">URL not found or required resource may be currenlt unavailable</p>`;
-                        var html = ejs.render(errorString); // Render ejs client side with EJS script (template1 corresponds to the artists template)
+                        var html = ejs.render(errorString); 
                         $('#ren').html(html);
                     }
                 };
