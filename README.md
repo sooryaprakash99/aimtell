@@ -1,5 +1,5 @@
 # aimtell
-Reposiotry for the aimtell task
+Display table using AJAX, Jquery and Bootstrap
 
 Project Setup:
   run 'npm install'
